@@ -35,5 +35,21 @@ public class AndOrXor {
 		// 2     = 0 1 0
 		// 6     = 1 1 0
 		// 6 | 2 = 1 1 0 = 6
+		
+		//The single ^ operator is used to "exclusively or" the bits together.
+		// EXAMPLE:
+		// What is the value of 3 ^ 7?
+		num = 3 ^ 7;
+		System.out.println(num); // This prints 4
+		
+		// 3     = 0 1 1
+		// 7     = 1 1 1
+		// 3 ^ 7 = 1 0 0  <--When the two bits being compared are different, the resulting bit is 1. Otherwise, 0.
+		
+		// Example:
+		// What is the value of 9 | 11?
+		// 9      = 1 0 0 1
+		// 11     = 1 0 1 1
+		// 9 ^ 11 = 0 0 1 0 = 2
 	}
 }
