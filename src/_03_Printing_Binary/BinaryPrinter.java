@@ -50,7 +50,7 @@ public class BinaryPrinter {
 		byte b = 31;
 		short s = 642;
 		int i = 10000;
-		long l = 5400000;
+		long l = 5400000 * 1000000;
 		
 		bp.printByteBinary(b);
 		System.out.println();
@@ -60,6 +60,7 @@ public class BinaryPrinter {
 		System.out.println();
 		bp.printLongBinary(l);
 		System.out.println();
+		System.out.println(l);
 		
 	}
 }
